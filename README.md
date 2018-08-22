@@ -1,7 +1,9 @@
 # Identify_Frauds
 
 ## Data
-Two csv files in the `Fraud` folder
+Two csv files in the `Fraud` folder             
+
+### Table 1          
 "Faud_Data" - information about each user first transaction
 #### Columns:
 - user_id : Id of the user. Unique by user
@@ -16,7 +18,7 @@ Two csv files in the `Fraud` folder
 - ip_address : user numeric ip address
 - class : this is what we are trying to predict: whether the activity was fraudulent (1) or not (0).
 
-
+### Table 2
 "IpAddress_to_Country" - mapping each numeric ip address to its country. For each country, it gives a range. If the numeric ip address falls within the range, then the ip address belongs to the corresponding country.
 #### Columns:
 - lower_bound_ip_address : the lower bound of the numeric ip address for that country              
